@@ -13,6 +13,11 @@
         "experimentalDecorators": true,
         "skipLibCheck": true,
         "declaration": true,
-        "downlevelIteration": true
-    }
+        "downlevelIteration": true,
+        "outDir": "./dist"
+    },
+    "include": [
+        "src/**/*",
+        "typings/**/*"
+    ]
 }
